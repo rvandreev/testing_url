@@ -1,2 +1,3 @@
-# testing_url
-For my test passing
+testing_url.py - решение через парсинг
+testing_url_selenuim.py - решение через использование WebDriver
+Testing_url.side - решение через использование SeleniumIDE
