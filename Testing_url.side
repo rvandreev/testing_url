@@ -1,0 +1,50 @@
+{
+  "id": "f1c7c981-9848-4a45-9ec2-7a7d287cf071",
+  "name": "Untitled Project",
+  "url": "http://blog.csssr.ru",
+  "tests": [{
+    "id": "9eff36ad-7c8a-44ca-84e5-d1b03f4d973f",
+    "name": "Test1",
+    "commands": [{
+      "id": "a581ddc0-ce28-4eb8-bc56-570f787f31cf",
+      "comment": "",
+      "command": "open",
+      "target": "/qa-engineer/",
+      "value": ""
+    }, {
+      "id": "3b03abeb-ad46-4f0b-942a-8bda04cabcc5",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=div.graphs-errors > a",
+      "value": "60,25"
+    }, {
+      "id": "6b1644d9-a82a-44c8-b0ba-c3e65834664e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "css=label > a",
+      "value": "24,29"
+    }, {
+      "id": "cd51fe8d-21dc-4bfd-8c4e-1eb6df7864c1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "win_ser_1",
+      "value": ""
+    }, {
+      "id": "bb395687-b07f-422a-9d1e-f4e40e475249",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "",
+      "value": "Monosnap - программа для создания скриншотов"
+    }]
+  }],
+  "suites": [{
+    "id": "44f5a0d4-c3ef-4390-b731-014e281574db",
+    "name": "Default Suite",
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://blog.csssr.ru/"],
+  "plugins": [],
+  "version": "1.0"
+}
