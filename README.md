@@ -27,15 +27,10 @@ Testing_url.side - решение через использование Selenium
 
 Установить пакеты python:
 * запустить командную строку
-* поочередно выполнить команды:
+* выполнить команду для обоих зависимостей:
 
-  pip install bs4
+  pip install -r requirements.txt
 
-  pip install lxml
-
-  pip install requests
-
-  pip install selenium
 
 Скачать и добавить в переменные среды путь до geckodriver
 
